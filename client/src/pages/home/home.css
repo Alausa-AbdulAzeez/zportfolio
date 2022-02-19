@@ -1,0 +1,145 @@
+* {
+  font-family: "Saira Condensed", sans-serif;
+}
+.homeContainer {
+  height: 100vh;
+  background-color: #ced4da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeMainContainer {
+  background-color: #f8f9fa;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+li[active="true"] .navLink {
+  color: #7400b8;
+  border-bottom: 1px solid #7400b8;
+}
+
+.navContainer {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  z-index: 2;
+  background-color: #f8f9fa;
+}
+
+.navLinks ul {
+  list-style-type: none;
+  display: flex;
+}
+.navLinks ul li {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  border-bottom: 1px solid #f8f9fa;
+}
+
+.navLinks ul li.active .navLink {
+  color: #7400b8;
+  border-bottom: 1px solid #7400b8;
+}
+
+.navLinks ul li:hover .navLink {
+  color: #7400b8;
+  border-bottom: 1px solid #7400b8;
+}
+.navLink {
+  text-decoration: none;
+  color: #000;
+}
+.homeContentContainer {
+  background-color: #e9ecef;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nameSpan {
+  color: #240046;
+  color: #7400b8;
+}
+.homeContentContainerTitle {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.homeContentContainerButtons {
+  display: flex;
+}
+.homeContentContainerButtons a {
+  text-decoration: none;
+}
+.homeContentContainerButtons .contact {
+  border: 1px solid #7400b8;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: all ease-in-out 0.2s;
+}
+.homeContentContainerButtons .contact:hover {
+  background-color: #7400b8;
+  color: white;
+}
+.homeContentContainerButtons .resume {
+  background-color: #7400b8;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+}
+.homeContentContainerRight {
+  border-radius: 50%;
+  border-bottom: 1px solid #7400b8;
+}
+.homeContentContainerRight .img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: #7400b8;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+}
+.homeContentContainerRight .img:hover {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1098px) {
+  .homeContentContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .homeContentContainerLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeContentContainerLeft p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navContainer {
+    font-size: 10px;
+    justify-content: center;
+  }
+  .homeContentContainerRight .img {
+    width: 150px;
+    height: 150px;
+  }
+  .homeContentContainerLeft {
+    font-size: smaller;
+  }
+}
