@@ -29,7 +29,7 @@ export const categories = {
     {
       title: "Personal Portfolio Website",
       text: "Technologies used: ReactJS, NodeJS",
-      url: "ghj",
+      url: "https://z-folio.herokuapp.com/",
     },
     {
       title: "Netflix Clone",
