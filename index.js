@@ -7,7 +7,7 @@ const OAuth2 = google.auth.OAuth2;
 const dotenv = require("dotenv");
 const app = express();
 
-const PORT = process.env.PORT || 8800;
+const PORT = process.env.PORT || 5500;
 
 app.use(express.json());
 app.use(cors());
