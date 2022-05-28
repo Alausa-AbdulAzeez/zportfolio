@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import ReactDOM from "react-dom";
 import { HashLink } from "react-router-hash-link";
 import "./home.css";
 
@@ -110,15 +109,6 @@ const Home = () => {
                   Resume
                 </HashLink>
               </li>
-              <li
-                onClick={handleSetActive}
-                className="link"
-                active={(loc === "Contact").toString()}
-              >
-                <HashLink smooth to="/#contact" className="navLink">
-                  Contact
-                </HashLink>
-              </li>
             </ul>
           </div>
         </div>
@@ -134,7 +124,6 @@ const Home = () => {
               applications with front and backend operations
             </p>
             <div className="homeContentContainerButtons">
-              <div className="contact">Contact me</div>
               <a
                 href={require("../../Resume.pdf")}
                 download={"Alausa-AbdulAzeez-resume"}

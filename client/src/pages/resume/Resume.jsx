@@ -105,6 +105,7 @@ const Resume = () => {
                       href={category.url}
                       className="projLink"
                       target={"_blank"}
+                      rel="noreferrer"
                     >
                       <div className="itemTimeframe">View site</div>
                     </a>

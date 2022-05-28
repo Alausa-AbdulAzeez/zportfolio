@@ -32,19 +32,20 @@ export const categories = {
       url: "https://z-folio.herokuapp.com/",
     },
     {
-      title: "Netflix Clone",
-      text: "Technologies used: ReactJS, NodeJS, MongoDB, ContextAPI",
-      url: "fgh",
+      title: "E-Commerce",
+      text: "Technologies used: ReactJS, GraphQL, Redux-toolkit",
+      url: "https://silver-fenglisu-6801e0.netlify.app/",
+    },
+
+    {
+      title: "zstaurant",
+      text: "Technologies used: ReactJS, NextJS, MongoDB, Redux-toolkit, ",
+      url: "https://zstaurant.herokuapp.com/",
     },
     {
       title: "Store Manager",
       text: "Technologies used: VanillaJS, PostgresQL",
       url: "https://zstore-manager.herokuapp.com/",
-    },
-    {
-      title: "E-commerce",
-      text: "Technologies used: ReactJS, NodeJS, MongoDB, Redux",
-      url: "https://z-sh.herokuapp.com/",
     },
   ],
   Interests: [
