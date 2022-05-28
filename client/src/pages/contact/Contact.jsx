@@ -46,7 +46,8 @@ const Contact = () => {
 
   const handSubmit = async (e) => {
     e.preventDefault();
-    const res = await axios.post("http://localhost:5000/", {
+    const res = await axios.post("/", {
+      // const res = await axios.post("http://localhost:5000/", {
       name: values.name,
       email: values.email,
       message: values.message,
