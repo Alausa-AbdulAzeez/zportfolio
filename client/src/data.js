@@ -18,12 +18,18 @@ export const categories = {
   ],
   ProgrammingSkills: [
     { title: "Javascript" },
+    { title: "ReactJs" },
+    { title: "NextJs" },
     { title: "NodeJS" },
-    { title: "html" },
-    { title: "CSS" },
     { title: "ExpressJS" },
     { title: "MongoDB" },
     { title: "PostgresQL" },
+    { title: "html" },
+    { title: "CSS" },
+    { title: "SCSS" },
+    { title: "Bootstrap" },
+    { title: "Git" },
+    { title: "Yarn" },
   ],
   Projects: [
     {
@@ -43,9 +49,9 @@ export const categories = {
       url: "https://zstaurant.herokuapp.com/",
     },
     {
-      title: "Store Manager",
-      text: "Technologies used: VanillaJS, PostgresQL",
-      url: "https://zstore-manager.herokuapp.com/",
+      title: "Hotel Reservation",
+      text: "Technologies used: ReactJS,MongoDB, ContextAPI,NodeJS",
+      url: "http://zbookings.herokuapp.com/",
     },
   ],
   Interests: [
